@@ -130,8 +130,21 @@
     background: #ffffff;
     font-weight: 700;
 }
+.nav-bar button a{
+    text-decoration: none;
+    color: black;
+    display:block;
+    width: 100%;
+    height: 33px;
+    padding-top: 17px;
 
-/*banner 广告开始*/
+}
+.nav-bar button a:hover{
+    background: #ffc200;
+    color: #b0b0b0;
+}
+
+    /*banner 广告开始*/
 .banner {
     width: 1226px;
     height: 460px;
@@ -160,12 +173,22 @@
 }
 
 .banner-list li a:hover {
-    background: #ffc200
+    background: #ffc200;
 }
 
 .banner-list li a::after {
     content: ">";
     float: right;
+}
+.banner-img a img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.banner .banner-img a {
+    width: 1226px;
+    height: 460px;
+    display: block;
 }
 
 /*banner 广告结束*/
